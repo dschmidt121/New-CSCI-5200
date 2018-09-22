@@ -13,12 +13,12 @@ namespace PizzaSys {
     public partial class Review {
         
         /// <summary>
-        /// ITemGrid control.
+        /// ShoppingList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView ITemGrid;
+        protected global::System.Web.UI.WebControls.GridView ShoppingList;
     }
 }

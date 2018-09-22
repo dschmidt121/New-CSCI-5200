@@ -3,6 +3,7 @@ body {
     padding-top: 0px;
     padding-bottom: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing:border-box;
 }
 
 /* Wrapping element */
@@ -10,6 +11,23 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    
+}
+.checkoutitems .checkoutimg, .checkoutitems .checkoutdesc {
+    float: left;
+    padding:5px;
+}
+
+.checkoutitems .checkoutdesc {
+    width: 75%;
+}
+
+.checkoutitems .checkoutimg {
+    width: 25%;
+}
+
+.content-wrapper {
+    padding-top: 4em;
     
 }
 
